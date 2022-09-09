@@ -1,0 +1,58 @@
+img.gasson {
+    width: 100%;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.button {
+    background-color: maroon;
+    border-color: black;
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.button:hover {
+    background-color: gold;
+    border-color: black;
+}
+
+a {
+    margin-left: 10px;
+    color: maroon;
+    border-radius: 5px;
+    text-align: center;
+}
+
+a:hover {
+    margin-left: 10px;
+    color: gold;
+    border-radius: 5px;
+}
+
+p.generated-content {
+    background: lightgoldenrodyellow;
+    padding: 10px;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 10px;
+    border: 1px solid lightgray;
+}
+
+.left {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    width: 50vw
+}
+
+#content {
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#container {
+    min-height: 100vh;
+    display: flex;
+}
